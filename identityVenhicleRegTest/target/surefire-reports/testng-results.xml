@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="40974" started-at="2017-10-22T23:05:29Z" finished-at="2017-10-22T23:06:10Z">
+    <groups>
+    </groups>
+    <test name="Regression-Chrome" duration-ms="40974" started-at="2017-10-22T23:05:29Z" finished-at="2017-10-22T23:06:10Z">
+      <class name="com.identity.tests.VehicleDetailVerificationTest">
+        <test-method status="PASS" signature="setPropertiesForAll()[pri:0, instance:com.identity.tests.VehicleDetailVerificationTest@60addb54]" name="setPropertiesForAll" is-config="true" duration-ms="25" started-at="2017-10-22T23:05:29Z" finished-at="2017-10-22T23:05:29Z">
+        </test-method> <!-- setPropertiesForAll -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.identity.tests.VehicleDetailVerificationTest@60addb54]" name="setUp" is-config="true" duration-ms="4967" started-at="2017-10-22T23:05:29Z" finished-at="2017-10-22T23:05:34Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="assertVehicleInfo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.identity.tests.VehicleDetailVerificationTest@60addb54]" name="assertVehicleInfo" duration-ms="18317" started-at="2017-10-22T23:05:35Z" data-provider="vehicleData" finished-at="2017-10-22T23:05:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FB04VWF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TOYOTA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GOLD]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- assertVehicleInfo -->
+        <test-method status="PASS" signature="assertVehicleInfo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.identity.tests.VehicleDetailVerificationTest@60addb54]" name="assertVehicleInfo" duration-ms="15181" started-at="2017-10-22T23:05:53Z" data-provider="vehicleData" finished-at="2017-10-22T23:06:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FB04 VWV]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VOLKSWAGEN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BLACK]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- assertVehicleInfo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.identity.tests.VehicleDetailVerificationTest@60addb54]" name="tearDown" is-config="true" duration-ms="1259" started-at="2017-10-22T23:06:08Z" finished-at="2017-10-22T23:06:10Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.identity.tests.VehicleDetailVerificationTest -->
+    </test> <!-- Regression-Chrome -->
+  </suite> <!-- Suite1 -->
+</testng-results>

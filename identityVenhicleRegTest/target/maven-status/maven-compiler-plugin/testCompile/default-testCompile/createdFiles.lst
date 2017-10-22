@@ -1,0 +1,3 @@
+com\identity\tests\BaseTests\SeleniumBaseTest.class
+com\identity\tests\BaseTests\BaseTest.class
+com\identity\tests\VehicleDetailVerificationTest.class
